@@ -1,0 +1,39 @@
+{
+  "name": "@radixxko/juhystav",
+  "version": "0.1.209",
+  "description": "",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist/**/*",
+    "templates/**/*",
+    "i18n/**/*",
+    "data/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i && rm -rf ./dist/* && tsc",
+    "version": "rm -rf ./dist/* && git pull && npm i && tsc && npm publish && npm run commit && git push",
+    "commit": "node -e \"const version = require('./package.json').version.trim(); require('child_process').execSync('git add . && git commit -m \\\"Version ' + version + '\\\"');\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radixxko/juhystav.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radixxko/juhystav/issues"
+  },
+  "homepage": "https://github.com/radixxko/juhystav#readme",
+  "dependencies": {
+    "@liqd-js/endpoint": "^0.1.5",
+    "@liqd-js/template": "^0.9.11",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "liqd-string": "^1.1.0",
+    "typescript": "^5.8.3"
+  }
+}

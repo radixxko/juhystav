@@ -1,0 +1,12 @@
+<Layout/Page>
+    <@meta>
+        <title>Blog</title>
+    </@meta>
+    <main>
+        <h1>Blog</h1>
+        <ul>
+            <li>Články o trendoch, tipy a rady</li>
+            <li>Minimálne 1× mesačne</li>
+        </ul>
+    </main>
+</Layout/Page>

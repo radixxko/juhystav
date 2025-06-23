@@ -1,0 +1,12 @@
+<Layout/Page>
+    <@meta>
+        <title>Kontakt</title>
+    </@meta>
+    <main>
+        <h1>Kontakt</h1>
+        <ul>
+            <li>Kontaktný formulár</li>
+            <li>Telefón, e-mail, adresa</li>
+        </ul>
+    </main>
+</Layout/Page>

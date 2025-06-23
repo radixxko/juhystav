@@ -1,0 +1,25 @@
+<Layout/Page>
+    <@meta>
+        <title>O nas titulka</title>
+    </@meta>
+    <style>
+        main
+        {
+            width: 100%;
+            padding-left: calc((100vw - var(--page-width)) / 2);
+            padding-right: calc((100vw - var(--page-width)) / 2);
+            box-sizing: border-box;
+            background: white;
+            min-height: 75vh;
+        }
+    </style>
+    <main>
+        <h1>O nas</h1>
+        <ul>
+            <li>Nasa historia</li>
+            <li>Nas tim</li>
+            <li>Naše hodnoty</li>
+            <li>Certifikaty a partneri</li>
+        </ul>
+    </main>
+</Layout/Page>

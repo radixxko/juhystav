@@ -1,0 +1,13 @@
+<Layout/Page>
+    <@meta>
+        <title>Cenova ponuka titulka</title>
+    </@meta>
+    <main>
+        <h1>Cenova ponuka</h1>
+        <ul>
+            <li>Formular na vypracovanie</li>
+            <li>Automaticke prijatie</li>
+            <li>Info o obvyklej lehote odpovede</li>
+        </ul>
+    </main>
+</Layout/Page>

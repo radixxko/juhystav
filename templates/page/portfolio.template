@@ -1,0 +1,12 @@
+<Layout/Page>
+    <@meta>
+        <title>Realizacie titulka</title>
+    </@meta>
+    <main>
+        <h1>Cenova ponuka</h1>
+        <ul>
+            <li>Filtrovatelny zoznam podla typu sluzby</li>
+            <li>Fotografie + popis + lokalita + rok</li>
+        </ul>
+    </main>
+</Layout/Page>

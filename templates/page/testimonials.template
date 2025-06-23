@@ -1,0 +1,13 @@
+<Layout/Page>
+    <@meta>
+        <title>Referencie a recenzie titulka</title>
+    </@meta>
+    <main>
+        <h1>Referencie a recenzie</h1>
+        <ul>
+            <li>Citáty spokojných zákazníkov</li>
+            <li>Prípadové štúdie</li>
+            <li>Odkazy na Google/Facebook recenzie</li>
+        </ul>
+    </main>
+</Layout/Page>

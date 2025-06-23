@@ -1,0 +1,11 @@
+<style>
+    .Slide
+    {
+        width: 100vw;
+        height: 100vh;
+        background: url('/data/hero/1.jpg') no-repeat center center / cover;
+    }
+</style>
+<div class="Slide">
+    
+</div>

@@ -1,0 +1,16 @@
+<style>
+    footer
+    {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        background: blue;
+        color: white;
+    }
+</style>
+<footer>
+    Toto je footer Block
+    <a href="/faq">FAQ</a>
+    <a href="/kontakt">Kontakt</a>
+</footer>

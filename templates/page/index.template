@@ -1,0 +1,19 @@
+<Layout/Page>
+    <style>
+        main
+        {
+            width: 100%;
+            //padding-left: calc((100vw - var(--page-width)) / 2);
+            //padding-right: calc((100vw - var(--page-width)) / 2);
+            //box-sizing: border-box;
+            background: white;
+            min-height: 75vh;
+        }
+    </style>
+    <@meta>
+        <title>Index titulka</title>
+    </@meta>
+    <main>
+        <Slide />
+    </main>
+</Layout/Page>

@@ -1,0 +1,25 @@
+<Layout/Page>
+    <@meta>
+        <title>Často kladené otázky titulka</title>
+    </@meta>
+    <style>
+        main
+        {
+            width: 100%;
+            padding-left: calc((100vw - var(--page-width)) / 2);
+            padding-right: calc((100vw - var(--page-width)) / 2);
+            box-sizing: border-box;
+            background: white;
+            min-height: 75vh;
+        }
+    </style>
+    <main>
+        <h1>Často kladené otázky</h1>
+        <ul>
+            <li>Postup pri cenovej ponuke</li>
+            <li>Dĺžka výstavby / rekonštrukcie</li>
+            <li>Používané materiály</li>
+            <li>Začiatok prác</li>
+        </ul>
+    </main>
+</Layout/Page>

@@ -1,0 +1,70 @@
+<style>
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: calc((100vw - var(--page-width)) / 2);
+        padding-right: calc((100vw - var(--page-width)) / 2);
+        //background: red;
+
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 64px;
+
+        > a
+        {
+            color: silver;
+            text-decoration: none;
+            font-weight: 300;
+            text-transform: uppercase;
+            padding: 0 15px;
+            font-size: 16px;
+        }
+    }
+
+    /*
+    header
+            {
+                width: 100%;
+                top: -200px;
+                padding-top: 200px;
+                padding-left: calc((100vw - var(--page-width)) / 2);
+                padding-right: calc((100vw - var(--page-width)) / 2);
+                position: fixed;
+                height: 100px;
+                background: rgba(10,10,10,0.3);
+                z-index: 990;
+                pointer-events: none;
+            }
+
+            header a
+            {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                pointer-events: all;
+            }
+
+            header a.logo
+            {
+                display: block;
+                width: 100px;
+                height: 100px;
+            }
+            */
+</style>
+<header>
+    <a href="/">Domov</a>
+    <a href="/o-nas">O nas</a>
+    <a href="/sluzby">Sluzby</a>
+    <a href="/cenova-ponuka">Cenova ponuka</a>
+    <a href="/realizacie">Realizacie</a>
+    <a href="/referencie">Referencie</a>
+    <a href="/blog">Blog</a>
+</header>
